@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/PlayerRoot.gd" type="Script" id=1]
+[ext_resource path="res://art/PNG/Sprites/Ships/spaceShips_001.png" type="Texture" id=2]
+
+[node name="Player" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PlayerSprite" type="Sprite" parent="."]
+rotation = 4.71239
+texture = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="."]
+rotation = -1.5708
+collision_layer = 51
+collision_mask = 55
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PoolVector2Array( 24.0798, -39.7333, 4.70863, -39.927, 4.51492, -32.7597, -4.58952, -32.566, -5.17065, -39.7333, -24.9292, -39.7333, -25.1229, -35.0842, -41.0073, -30.0477, -53.4048, 16.443, -30.1594, 40.657, -22.0236, 36.7827, -26.6726, 29.0343, -21.2487, 29.0343, -18.7305, 18.1864, -22.0236, 13.1499, -15.2437, 4.62663, -9.04488, 24.3852, 8.58286, 24.7726, 14.9753, 4.62663, 22.1427, 13.7311, 18.4621, 19.9298, 20.7867, 28.8406, 26.4043, 29.228, 21.7552, 36.589, 30.0848, 40.8507, 54.105, 17.0242, 40.9327, -30.4351, 26.0169, -35.4716 )
+
+[node name="Timer" type="Timer" parent="."]
+
