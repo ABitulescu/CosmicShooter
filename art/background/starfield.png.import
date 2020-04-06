@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/starfield.png-199c545032979232664f85f2caff5864.stex"
+path="res://.import/starfield.png-f69f8d96c80ed64970d3f43dfd852f7e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/baackground/starfield.png"
-dest_files=[ "res://.import/starfield.png-199c545032979232664f85f2caff5864.stex" ]
+source_file="res://art/background/starfield.png"
+dest_files=[ "res://.import/starfield.png-f69f8d96c80ed64970d3f43dfd852f7e.stex" ]
 
 [params]
 
